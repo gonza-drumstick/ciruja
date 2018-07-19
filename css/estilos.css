@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Open Sans" Verdana; }
+
+header {
+  background: url(../img/cabecera.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  width: auto; }
+  header .contenedor-logo-menu {
+    padding: 25px 0; }
+    header .contenedor-logo-menu .logo {
+      display: block; }
+      header .contenedor-logo-menu .logo img {
+        border-radius: 10%; }
+    header .contenedor-logo-menu .menu {
+      text-align: center;
+      line-height: 50px;
+      border-radius: 80%; }
+      header .contenedor-logo-menu .menu a {
+        margin: 0 25px;
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.8);
+        text-decoration: none; }
+        header .contenedor-logo-menu .menu a:hover {
+          text-decoration: underline; }
+  header .textos {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 80px; }
+    header .textos .texto-primero {
+      font-size: 30px;
+      font-family: "Open Sans";
+      font-weight: 300i; }
+    header .textos .linea {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+      width: 70%;
+      margin: auto; }
+    header .textos .texto-segundo {
+      font-size: 30px;
+      font-family: "Open Sans";
+      font-weight: 300i;
+      margin-bottom: 50px; }
+    header .textos .contenedor-btn {
+      margin: 100px 0; }
+      header .textos .contenedor-btn a {
+        font-size: 18px;
+        border-radius: 4px;
+        border: 2px solid #fafafa;
+        color: rgba(255, 255, 255, 0.8);
+        padding: 12px 0;
+        display: inline-block;
+        width: 23%;
+        text-decoration: none;
+        margin: 0 2px;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.1); }
+        header .textos .contenedor-btn a:hover {
+          background: rgba(255, 255, 255, 0.3); }
+
+.main .caracteristicas {
+  padding: 100px 30px; }
+  .main .caracteristicas .contenedor {
+    margin: auto; }
+    .main .caracteristicas .contenedor .row .titulo {
+      text-align: center;
+      padding-bottom: 70px;
+      font-family: "Open Sans";
+      font-size: 40px;
+      margin-top: -20px; }
+    .main .caracteristicas .contenedor .contenedor-caracteristicas {
+      display: flex;
+      justify-content: sapce-around; }
+      .main .caracteristicas .contenedor .contenedor-caracteristicas .caracteristica {
+        text-align: center;
+        width: 30%;
+        margin: auto; }
+        .main .caracteristicas .contenedor .contenedor-caracteristicas .caracteristica .texto-seg {
+          font-weight: 600;
+          padding: 20px 0; }
+        .main .caracteristicas .contenedor .contenedor-caracteristicas .caracteristica .parrafo {
+          color: #676565;
+          font-weight: 600;
+          line-height: 28px; }
+.main .fotos {
+  padding: 20px 0px;
+  background: #FDC151; }
+  .main .fotos .foto {
+    padding: 50px 5px;
+    margin: auto; }
+    .main .fotos .foto .thumb img {
+      border-radius: 5px;
+      width: 250px;
+      height: 200px; }
+    .main .fotos .foto .thumb.foto-1 {
+      text-align: right; }
+    .main .fotos .foto .texto {
+      font-family: "Open Sans";
+      margin-top: -40px; }
+      .main .fotos .foto .texto .titulo {
+        margin-top: 70px;
+        margin-bottom: 40px;
+        font-size: 32px;
+        line-height: 32px;
+        font-weight: 400; }
+        .main .fotos .foto .texto .titulo.azul {
+          color: #4F5EDD; }
+        .main .fotos .foto .texto .titulo.naranja {
+          color: #F6F635; }
+      .main .fotos .foto .texto .parrafo {
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: 300i;
+        color: #676565; }
+      .main .fotos .foto .texto .derecha {
+        text-align: right; }
+.main .promociones {
+  background-position: center 0;
+  background-size: cover;
+  padding: 70px 0; }
+  .main .promociones .titulo {
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 40px;
+    text-decoration: underline;
+    margin: auto;
+    margin-bottom: 70px;
+    margin-top: -20px; }
+  .main .promociones .plan {
+    text-align: center;
+    background: #fafafa;
+    padding: 50px 0;
+    border-radius: 5px;
+    margin: auto;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+    width: 90%; }
+    .main .promociones .plan .titulo-plan {
+      font-size: 32px; }
+    .main .promociones .plan .precio {
+      font-size: 40px;
+      padding: 10px; }
+    .main .promociones .plan .caracteristicas-plan {
+      list-style: none;
+      font-size: 16px;
+      padding-bottom: 20px;
+      font-weight: 600; }
+      .main .promociones .plan .caracteristicas-plan li {
+        padding: 20px 0;
+        border-bottom: 0.5px solid #dedede; }
+    .main .promociones .plan .btn {
+      width: 70%;
+      text-align: center;
+      display: inline-block;
+      padding: 15px 0;
+      border-radius: 100px;
+      font-size: 18px;
+      font-weight: 600; }
+    .main .promociones .plan.verde .titulo-plan,
+    .main .promociones .plan.verde .precio {
+      color: #86b773; }
+    .main .promociones .plan.verde .btn {
+      color: #86b773;
+      border: 3px solid #86b773; }
+      .main .promociones .plan.verde .btn:hover {
+        background: #86b773;
+        color: #fafafa; }
+    .main .promociones .plan.active {
+      background: #4c8dce;
+      color: #fafafa; }
+      .main .promociones .plan.active .btn {
+        color: #fafafa;
+        border: 3px solid #fafafa; }
+        .main .promociones .plan.active .btn:hover {
+          background: #fafafa;
+          color: #4c8dce; }
+    .main .promociones .plan.naranja {
+      background: #fafafa;
+      color: #ddb146; }
+      .main .promociones .plan.naranja .btn {
+        color: #ddb146;
+        border: 3px solid #ddb146; }
+        .main .promociones .plan.naranja .btn:hover {
+          background: #ddb146;
+          color: #fafafa; }
+.main .clientes {
+  padding: 70px 0;
+  background: #f0f0ff; }
+  .main .clientes .titulo {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 70px;
+    color: #4facd3;
+    font-weight: 300; }
+  .main .clientes .cliente {
+    margin-bottom: 20px;
+    padding: 5px 100px; }
+    .main .clientes .cliente .foto {
+      text-align: center; }
+      .main .clientes .cliente .foto img {
+        border-radius: 50%;
+        max-width: 80px;
+        width: 100%; }
+    .main .clientes .cliente .foto-2 {
+      text-align: center; }
+      .main .clientes .cliente .foto-2 img {
+        border-radius: 50%;
+        max-width: 80px;
+        width: 100%; }
+    .main .clientes .cliente .opinion-right {
+      text-align: right; }
+      .main .clientes .cliente .opinion-right p {
+        font-size: 16px;
+        font-weight: 600;
+        font-family: "Open Sans";
+        color: #96938F; }
+      .main .clientes .cliente .opinion-right .nombre {
+        color: #EC9D38; }
+    .main .clientes .cliente .opinion {
+      text-align: left; }
+      .main .clientes .cliente .opinion p {
+        font-size: 16px;
+        font-weight: 600;
+        font-family: "Open Sans";
+        color: #96938F; }
+      .main .clientes .cliente .opinion .nombre {
+        color: #EC9D38; }
+
+footer .contacto {
+  background: #3f3f3f;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center; }
+  footer .contacto .texto {
+    color: #fafafa;
+    font-size: 20px; }
+    footer .contacto .texto p {
+      font-size: 13px;
+      font-family: "Open Sans"; }
+  footer .contacto img {
+    border-radius: 100%; }
+  footer .contacto .redes-sociales {
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around; }
+    footer .contacto .redes-sociales .instagram {
+      color: #517fa4; }
+    footer .contacto .redes-sociales .facebook {
+      color: #3b5998; }
+    footer .contacto .redes-sociales .twitter {
+      color: #00aced; }
+
+@media screen and (max-width: 992px) {
+  header .contenedor-logo-menu .logo {
+    text-align: center; }
+  header .contenedor-logo-menu .menu {
+    margin-top: 20px; }
+  header .textos .texto-primero {
+    font-size: 25px; }
+  header .textos .texto-segundo {
+    font-size: 20px; }
+
+  .main .caracteristicas .caracteristica {
+    width: 40%;
+    margin: auto; }
+    .main .caracteristicas .caracteristica .parrafo {
+      margin-bottom: 50px; }
+
+  .fotos .foto .thumb {
+    width: 10%; } }
+
+/*# sourceMappingURL=estilos.css.map */
