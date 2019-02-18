@@ -53,7 +53,7 @@ header {
         border-radius: 4px;
         border: 2px solid #fafafa;
         color: rgba(255, 255, 255, 0.8);
-        padding: 12px 0;
+        padding: 5px 0;
         display: inline-block;
         width: 23%;
         text-decoration: none;
@@ -266,14 +266,24 @@ footer .contacto {
     font-size: 25px; }
   header .textos .texto-segundo {
     font-size: 20px; }
+  header .textos .contenedor-btn {
+    display: none;
+  }
 
-  .main .caracteristicas .caracteristica {
-    width: 40%;
-    margin: auto; }
-    .main .caracteristicas .caracteristica .parrafo {
-      margin-bottom: 50px; }
+   .main .caracteristicas .contenedor-caracteristicas{
+      display: flex;
+      flex-direction: column; } 
+    .main .caracteristicas .caracteristica {
+      width: 40%;
+      margin: auto; }
+      .main .caracteristicas .caracteristica .parrafo {
+        margin-bottom: 50px; }
 
   .fotos .foto .thumb {
     width: 10%; } }
 
+footer .contacto{
+  display: flex;
+  flex-direction: column;
+}
 /*# sourceMappingURL=estilos.css.map */
